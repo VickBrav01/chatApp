@@ -1,0 +1,25 @@
+/* LandingPage.css */
+
+.landing-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-page-image {
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.landing-page-logo {
+  width: fit-content;
+  height: 100px;
+}
+
+.spin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
