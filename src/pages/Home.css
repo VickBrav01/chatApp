@@ -1,0 +1,94 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+  }
+  
+  .post-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .post-picture {
+    display: flex;
+    align-items: center;
+  }
+  
+  .write-post,
+  .upload-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 24px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .post-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .post-input {
+    flex: 1;
+    margin-right: 16px;
+  }
+  
+  .submit-button {
+    width: 120px;
+  }
+  
+  .post-list {
+    width: 100%;
+  }
+  
+  .post-item {
+    background-color: #f0f0f0;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .post-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .post-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    cursor: pointer;
+  }
+  
+  .comment-section {
+    margin-top: 8px;
+  }
+  
+  .comment-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .comment {
+    background-color: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  

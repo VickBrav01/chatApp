@@ -1,0 +1,79 @@
+/* Explore.css */
+.explore-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.people-suggestions {
+  margin-bottom: 20px;
+}
+
+.explore-suggestions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.explore-suggestion {
+  background-color: #f4f4f4;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.explore-suggestion img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.explore-suggestion .suggestion-info {
+  flex-grow: 1;
+}
+
+.explore-suggestion .suggestion-info h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.explore-suggestion .suggestion-info p {
+  font-size: 14px;
+  color: #888;
+}
+
+@media screen and (max-width: 768px) {
+  .explore-main {
+    flex-direction: column-reverse;
+  }
+
+  .suggestions-container {
+    margin-top: 20px;
+  }
+}
